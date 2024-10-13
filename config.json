@@ -1,0 +1,9 @@
+{
+  "login_username" : "PATH",
+  "login_password" : "PATH",
+  "num_tweets" : 50,
+  "profile_to_visit" : "QuantMeta",
+  "driver_path" : "C:/chromedriver",
+  "model_path": "cardiffnlp/twitter-xlm-roberta-base-sentiment-multilingual",
+  "cut_off_date": "2024-8-2"
+}
