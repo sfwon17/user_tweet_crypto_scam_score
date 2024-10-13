@@ -8,3 +8,10 @@ The system is designed to analyze a user's past tweets containing cryptocurrency
 2. **Retrieving Metadata and Price History:** Cryptocurrency metadata and historical price data are obtained through the CoinGecko API, which is freely available and does not require payment.
 3. **Sentiment Analysis:** Natural Language Processing (NLP) techniques are applied to analyze the sentiment of each tweet mentioning a cryptocurrency ticker.
 4. **Scoring for Pump and Dump Risk:** A score is calculated for each tweet, assessing the likelihood of a pump-and-dump scheme based on the tweet's sentiment, the performance of the cryptocurrency's price, and the prevailing market conditions at the time.
+
+## Instructions
+Make the necessary changes to the configuration file, including details such as the Twitter account, profile to scrape, number of tweets to scrape, etc. If the script fails, please rerun it, as API limits may have been reached. The process may take some time, but it is free to run. Follow the steps in the specified order when running the script:
+1. scrape_tweets.py
+2. tokens_sentiment_extraction.py
+3. get_data.py
+4. calculate_PnD_index.py
