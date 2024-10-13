@@ -4,7 +4,7 @@ This project involves analyzing tweet activity from specific users to assess the
 The system is designed to analyze a user's past tweets containing cryptocurrency tickers, assess their sentiment, and evaluate the performance of the associated token prices under varying market conditions. The process involves the following steps:
 
 ## How it Works
-1. Scraping Tweets: Tweets are scraped from specific users on Twitter without the use of Twitter's official API.
-2. Retrieving Metadata and Price History: Cryptocurrency metadata and historical price data are obtained through the CoinGecko API, which is freely available and does not require payment.
-3. Sentiment Analysis: Natural Language Processing (NLP) techniques are applied to analyze the sentiment of each tweet mentioning a cryptocurrency ticker.
-4. Scoring for Pump and Dump Risk: A score is calculated for each tweet, assessing the likelihood of a pump-and-dump scheme based on the tweet's sentiment, the performance of the cryptocurrency's price, and the prevailing market conditions at the time.
+1. **Scraping Tweets**: Tweets are scraped from specific users on Twitter without the use of Twitter's official API.
+2. **Retrieving Metadata and Price History:** Cryptocurrency metadata and historical price data are obtained through the CoinGecko API, which is freely available and does not require payment.
+3. **Sentiment Analysis:** Natural Language Processing (NLP) techniques are applied to analyze the sentiment of each tweet mentioning a cryptocurrency ticker.
+4. **Scoring for Pump and Dump Risk:** A score is calculated for each tweet, assessing the likelihood of a pump-and-dump scheme based on the tweet's sentiment, the performance of the cryptocurrency's price, and the prevailing market conditions at the time.
